@@ -1,0 +1,10 @@
+var email = localStorage.getItem("email");
+var fullname = localStorage.getItem("fullname");
+var password = localStorage.getItem("password");
+var username = localStorage.getItem("user");
+var regdate = localStorage.getItem("date");
+document.getElementById('fullname').innerHTML = fullname;
+document.getElementById('mail').innerHTML = email;
+document.getElementById('password').innerHTML = password;
+document.getElementById('date').innerHTML = regdate;
+document.getElementById('username').innerHTML = username;
